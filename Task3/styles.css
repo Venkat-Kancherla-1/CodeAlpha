@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light Blue */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 20%;
+    background-color: #f0f8ff
+}
+
+h1 {
+    text-align: center;
+    color: #333333; /* Dark Gray */
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #333333; /* Dark Gray */
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333333; /* Dark Gray */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+button {
+    background-color: #ff7f50; /* Orange */
+    color: #ffffff; /* White */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6c3d; /* Darker Orange on Hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
